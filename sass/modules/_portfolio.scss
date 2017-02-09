@@ -1,0 +1,241 @@
+/* ============================================================
+   11. PORTFOLIO
+/* ============================================================ */
+.main-portfolio {
+   padding: 84px 0 60px;
+   @media screen and (max-width:767px) {
+      padding: 54px 0;
+   }
+}
+
+.work-box {
+   width: 100%;
+   margin-bottom: 30px;
+   position: relative;
+   img {
+      width: 100%;
+   }
+   @media screen and (max-width: 1200px) {
+      .g-project-info-inner h3 {
+         padding-bottom: 10px;
+      }
+   }
+   @media screen and (max-width:992px) {
+      .g-cat {
+         display: block;
+      }
+   }
+}
+
+.portfolio-filter {
+   li a {
+      font-size: 13px;
+   }
+}
+
+
+
+
+.col-5 {
+   max-width: 360px;
+   width: 100%;
+   padding-left: 15px;
+   padding-right: 15px;
+   display: inline-block;
+   float: none;
+}
+
+.col-5.mix {
+   display: none;
+}
+
+.col-5.no-padding {
+   max-width: 330px;
+   padding: 0;
+   margin-left: -3px;
+   margin-right: -3px;
+   margin-bottom: -5px;
+}
+
+.col-work {
+   width: 20%;
+   float: left;
+   @media screen and (max-width:992px) {
+      width: 50%;
+   }
+   @media screen and (max-width:767px) {
+      width: 100%;
+   }
+}
+
+.detail-list {
+   border-top: 1px solid #ededed;
+   margin-bottom: 30px;
+   margin-top: 15px;
+   li {
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 500;
+      list-style: none;
+      color: #6d7272;
+      padding: 14px 0;
+      border-bottom: 1px solid #ededed;
+      span {
+         color: #9b9e9e;
+         font-weight: 400;
+      }
+      a {
+         color: #9b9e9e;
+         font-weight: 400;
+         &:hover {
+            color: $red;
+         }
+      }
+   }
+}
+
+.project-det {
+   h3 {
+      font-size: 15px;
+   }
+   @media screen and (max-width:767px) {
+      padding-top: 30px;
+   }
+
+}
+
+.portfolio-slider{
+   .sl-post-prev, .sl-post-next {
+      top: 50%!important;
+      transform: translateY(-50%)!important;
+      display: block !important;
+   }
+   .pagination-bottom {
+      bottom: 25px;
+      @media screen and (max-width:992px) {
+         padding-bottom: 10px;
+      }
+      @media screen and (max-width:767px) {
+         display: none;
+      }
+   }
+   .swiper-pagination-switch {
+      width: 7px;
+      height: 7px;
+      margin: 3px;
+      background: #fff;
+      border-color: #fff;
+   }
+   .swiper-active-switch {
+      background: $red;
+      border-color: $red;
+   }
+}
+
+
+.project-container {
+   padding-top: 90px;
+   @media screen and (max-width:1200px) {
+      padding-top: 50px;
+   }
+   @media screen and (max-width:767px) {
+      padding-top: 10px;
+   }
+}
+
+.next-prev {
+   position: relative;
+   margin-top: 90px;
+   margin-bottom: 25px;
+   @media screen and (max-width:1200px) {
+      margin-top: 50px;
+      margin-bottom: 0;
+   }
+   .prev-project, .next-project {
+      width: 40px;
+      height: 40px;
+      border: 2px solid #e7e7e7;
+      border-radius: 2px;
+      display: block;
+      color: #c8c8c8;
+      text-align: center;
+      line-height: 35px;
+      &:hover {
+         color: #fff;
+         background: $red;
+         border-color: $red;
+      }
+   }
+   .prev-project {
+      float: left;
+   }
+   .next-project {
+      float: right;
+      i {
+         position: relative;
+         left: 2px;
+      }
+
+   }
+}
+
+.back {
+   color: #e7e7e7;
+   position: absolute;
+   left: 50%;
+   margin-left: -11px;
+   top: 8px;
+   width: 22px;
+   height: 22px;
+   &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url("../img/back-red.png") no-repeat;
+      width: 22px;
+      height: 22px;
+      @extend .transition;
+      opacity: 0;
+   }
+   &:hover:after {
+      opacity: 1;
+   }
+}
+
+.des-col {
+   margin-bottom: 20px;
+   @media screen and (max-width:767px) {
+      text-align: center;
+   }
+   span {
+      color: $red;
+      display: inline-block;
+      margin-bottom: 12px;
+      font-family: 'PT Serif', serif;
+      font-style: italic;
+   }
+
+   h3 {
+      font-size: 15px;
+   }
+}
+
+
+.detail-row {
+   padding-top: 50px;
+   .detail-list {
+      margin-top: 7px;
+   }
+   h3 {
+      font-size: 15px;
+      display: block;
+      padding-left: 15px;
+      padding-bottom: 35px;
+   }
+}
+
+
+.work-advantage {
+   padding: 80px 0 40px;
+}

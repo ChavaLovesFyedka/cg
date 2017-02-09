@@ -1,0 +1,22 @@
+/* ============================================================
+   02. FONTS
+/* ============================================================ */
+@font-face {
+   font-family: 'Georgia';
+   src: url('../fonts/Georgia.eot');
+   src: url('../fonts/Georgia.eot') format('embedded-opentype'),
+   url('../fonts/Georgia.woff2') format('woff2'),
+   url('../fonts/Georgia.woff') format('woff'),
+   url('../fonts/Georgia.ttf') format('truetype'),
+   url('../fonts/Georgia.svg#Georgia') format('svg');
+}
+
+@font-face {
+   font-family: 'Comic';
+   src: url('../fonts/Comic.eot');
+   src: url('../fonts/Comic.eot') format('embedded-opentype'),
+   url('../fonts/Comic.woff2') format('woff2'),
+   url('../fonts/Comic.woff') format('woff'),
+   url('../fonts/Comic.ttf') format('truetype'),
+   url('../fonts/Comic.svg#Comic') format('svg');
+}
